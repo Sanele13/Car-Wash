@@ -1,0 +1,13 @@
+.header{
+	background-color: #2177f3;
+	
+}
+body{
+	font-size: 20px; 
+}
+
+.header>.login{
+	position: relative;
+    left: 80%;
+    width: 200px;
+}
