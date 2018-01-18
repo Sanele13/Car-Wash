@@ -15,11 +15,19 @@ body{
 /*navigation menu*/
 .nav-menu-container{
 	display: block;
+    margin-top: -15px;
 }
 .nav-menu-item{
-	display: inline-block;
+    display: inline-block;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px 20px 10px 20px;
+    background-color: #265f9e;
+    border-radius: 5px;
 }
 .nav-menu{
-	background-color: red;
-	padding: 20px;
+    background-color: #2177f3;
+    padding: 15px;
 }
