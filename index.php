@@ -9,6 +9,21 @@
 		include("templates/header.php");
 		include("templates/menu.php"); 
 	?>
-Some text on the body.
+<!--banner-->
+	<div class="banner-container"><img src="images/banners/UCT BBall.png" />
+	
+	</div>
+
+<!--Happy Customers/Testimonials-->
+
+
+
+
+
+<!--footer-->
+	<?php 
+		include("templates/footer.php");
+
+	?>
 </body>
 </html>
