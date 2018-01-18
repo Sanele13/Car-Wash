@@ -11,3 +11,15 @@ body{
     left: 80%;
     width: 200px;
 }
+
+/*navigation menu*/
+.nav-menu-container{
+	display: block;
+}
+.nav-menu-item{
+	display: inline-block;
+}
+.nav-menu{
+	background-color: red;
+	padding: 20px;
+}
