@@ -14,7 +14,8 @@
 					<span style="color: white;font-weight: bold;">Username</span>
 					<input type="text" name="username"/><br/>
 					<span style="color: white;font-weight: bold;">Password</span>
-					<input type="password" name="password"/><br/><br/>
+					<input type="password" name="password"/><br/>
+					<input type="submit" class = "login-button" value="Log In"/>
 				</form>'; 
 			}
 			

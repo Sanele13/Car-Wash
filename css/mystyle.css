@@ -16,7 +16,21 @@ body{
     left: 80%;
     width: 200px;
 }
+.login-button{
+	color: white;
+	background-color: #265f9e;
+	font-weight: bold;
+	width: 40%;
+	height: 30px;
+    margin: 10px 0px 10px 0px;
+    
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0px 0px 0px 0px;
 
+}
 /*navigation menu*/
 .nav-menu-container{
 	display: block;
