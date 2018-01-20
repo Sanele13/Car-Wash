@@ -4,7 +4,7 @@
 	</div>
 	<div class = "login">
 		<?php 
-
+			
 			if (isset($_SESSION['username'])) {
 				echo "Hello ".$_SESSION['username'];
 			} else {

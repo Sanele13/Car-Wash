@@ -2,6 +2,11 @@
 	background-color: #2177f3;
 	
 }
+.login>form>input:hover{
+	border-style: solid;
+	border-color: grey;
+	border-width: 2px;
+}
 body{
 	font-size: 20px; 
 }
@@ -26,6 +31,13 @@ body{
     padding: 10px 20px 10px 20px;
     background-color: #265f9e;
     border-radius: 5px;
+}
+.nav-menu-item>span>a{
+	color: white;
+	text-decoration: none;
+}
+.nav-menu-item>span>a:hover{
+	font-weight: bold;
 }
 .nav-menu{
     background-color: #2177f3;

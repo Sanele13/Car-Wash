@@ -1,13 +1,13 @@
 <div class = "nav-menu-container">
 	<ul class="nav-menu">
 		<li class="nav-menu-item">
-			<span ><a href="index.php">HOME</a></span>
+			<span ><a href="http://127.0.0.1/car%20wash/index.php">HOME</a></span>
 		</li>
 		<li class="nav-menu-item">
-			<span><a href="services.php">SERVICES</a></span>
+			<span><a href="http://127.0.0.1/car%20wash/services/">SERVICES</a></span>
 		</li>
 		<li class="nav-menu-item">
-			<span><a href="about.php">ABOUT</a></span>
+			<span><a href="http://127.0.0.1/car%20wash/about/">ABOUT</a></span>
 		</li>
 	</ul>
 </div>
