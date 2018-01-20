@@ -5,10 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="http://127.0.0.1/car%20wash/css/mystyle.css">
 	<style type="text/css">
 		h1{
-
+			text-decoration: underline;
+			text-align: center;
+			color: #333;
 		}
 		p{
-
+			text-align: center;
 		}
 
 	</style>
@@ -24,5 +26,10 @@
 		<p>This is a paragraph about what the company does and how it is done.</p>
 	<h1>Why We Do What We Do</h1>
 		<p>This is a paragraph about the company's goals and stuff. Maybe we do this to put smiles in people's faces and stuff.</p>
+	<!--footer-->
+	<?php 
+		include("../templates/footer.php");
+
+	?>
 </body>
 </html>
