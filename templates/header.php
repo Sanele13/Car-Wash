@@ -10,7 +10,7 @@
 			} else {
 				echo '
 
-				<form action="login.php">
+				<form action="login/" method="POST">
 					<span style="color: white;font-weight: bold;">Username</span>
 					<input type="text" name="username"/><br/>
 					<span style="color: white;font-weight: bold;">Password</span>
