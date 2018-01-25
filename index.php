@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +11,7 @@
 		include("templates/menu.php"); 
 	?>
 <!--banner-->
-	<div class="banner-container"><img src="images/banners/UCT BBall.png" />
+	<div class="banner-container"><img src="http://127.0.0.1/car%20wash/images/banners/UCT BBall.png" />
 	
 	</div>
 

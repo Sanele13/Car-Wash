@@ -1,5 +1,6 @@
 .header{
 	background-color: #2177f3;
+	height: 150px;
 	
 }
 .login>form>input:hover{
@@ -12,6 +13,7 @@ body{
 }
 
 .header>.login{
+	padding-top: 5px;
 	position: relative;
     left: 80%;
     width: 200px;

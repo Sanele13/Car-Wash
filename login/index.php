@@ -6,7 +6,7 @@
 		4. Else, send error message to the user
 
 	*/	
-
+	session_start();
 	// 1. Check if the form data is legit. Check email.
 		//I wont do this now. At this point, I am not really worried about security of the application
 			
@@ -15,10 +15,10 @@
 	$password = $_POST['password'];
 	$login = new Login($username,$password);
 	if($login->userExists()){
-		echo "logged in!";
-		//session_start()
-		//$_SESSION['username']=$username;
-		//include("../index.php");
+		//echo "logged in!";
+		
+		$_SESSION['username']=$username;
+		header("Location:../index.php");
 	}
 	else{
 		echo "You have entered incorrect user credentials";
@@ -39,7 +39,7 @@
 			$query = mysqli_query($conn, $statement);
 			//$result = mysqli_result($query);
 			$row_cnt = mysqli_num_rows($query);
-			echo $row_cnt;
+			//echo $row_cnt;
 			if($row_cnt!=0){
 				return true;	
 			}else{

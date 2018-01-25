@@ -1,3 +1,4 @@
+<?php //session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +18,7 @@
 </head>
 <body>
 	<?php 
+		//session_start();
 		include("../templates/header.php");
 		include('../templates/menu.php');
 	 ?>

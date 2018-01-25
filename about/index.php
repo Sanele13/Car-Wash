@@ -17,6 +17,7 @@
 </head>
 <body>
 	<?php 
+		//session_start();
 		include("../templates/header.php");
 		include('../templates/menu.php');
 	 ?>
