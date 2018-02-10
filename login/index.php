@@ -5,8 +5,10 @@
 		3. If all is well, create a session and include home page
 		4. Else, send error message to the user
 
-	*/	
-	session_start();
+	*/
+	
+		
+	
 	// 1. Check if the form data is legit. Check email.
 		//I wont do this now. At this point, I am not really worried about security of the application
 			
@@ -16,7 +18,7 @@
 	$login = new Login($username,$password);
 	if($login->userExists()){
 		//echo "logged in!";
-		
+		session_start();
 		$_SESSION['username']=$username;
 		header("Location:../index.php");
 	}

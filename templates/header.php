@@ -1,4 +1,3 @@
-
 <div class = "header">
 	<?php session_start(); ?>
 	<div class = "logo">
