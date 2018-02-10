@@ -11,7 +11,7 @@
 				$link = "<a href = '' style = 'color:white'>".$_SESSION['username']."</a>";
 				echo "<span style='color: white;'>"."Hello ".$link."!</span>";
 				echo "<div><img style = 'height: 80px;width: 80px;border-radius: 40px;border-color: white;border-style:solid;margin:10px 0px 0px 10px' src ='http://127.0.0.1/car%20wash/images/profile/WIN_20160803_200515.jpg'></div>";
-				echo "<span style='color: white;'><a href='/person's account' style = 'color:white'
+				echo "<span style='color: white;'><a href='http://127.0.0.1/car%20wash/account/' style = 'color:white'
 				>Edit Profile</a></span>";
 			} else {
 				echo '
