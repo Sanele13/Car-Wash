@@ -10,21 +10,16 @@
 		include("templates/header.php");
 		include("templates/menu.php"); 
 	?>
-<!--banner-->
-	<div class="banner-container"><img src="http://127.0.0.1/car%20wash/images/banners/UCT BBall.png" />
-	
+	 <div class="body-container">
+		 <div class="container-in-body">
+		 	<!--div><img src="http://127.0.0.1/car%20wash/images/banners/UCT BBall.png"></div-->
+		 </div>
+
+	<!--footer-->
+		<?php 
+			include("templates/footer.php");
+
+		?>
 	</div>
-
-<!--Happy Customers/Testimonials-->
-
-
-
-
-
-<!--footer-->
-	<?php 
-		include("templates/footer.php");
-
-	?>
 </body>
 </html>

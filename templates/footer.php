@@ -1,3 +1,3 @@
-<div class="footer-container">
+<div class="footer">
 	All Rights Reserved
 </div>

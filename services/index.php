@@ -22,13 +22,16 @@
 		include("../templates/header.php");
 		include('../templates/menu.php');
 	 ?>
-	 <h1>Services We Offer</h1>
-
+	 <div class="body-container">
+		 <div class="container-in-body">
+		 	<h1>Services We Offer</h1>
+		 </div>
 
 	<!--footer-->
-	<?php 
-		include("../templates/footer.php");
+		<?php 
+			include("../templates/footer.php");
 
-	?>
-</body>
+		?>
+	</div>
+	</body>
 </html>
