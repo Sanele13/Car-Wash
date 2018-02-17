@@ -16,9 +16,9 @@
 	}
 	//store data
 	$conn = mysqli_connect("localhost","root","zukiswa","car_wash"); //connect to server and select db
-	$statement = "insert into user_details(name,last_name,password,profile_pic,email,number) values ('{$name}','{last_name}','{$password}','{profile_pic}','{email}','{number}')";//query
+	$statement = "insert into user_details(name,last_name,password,profile_pic,email,number) values ('{$name}','{$last_name}','{$password}','{$profile_pic}','{$email}','{$number}')";//query
 	$query = mysqli_query($conn, $statement);
 
-	$conn->mysql_close();
+	//$conn->mysql_close();
 
 ?>
