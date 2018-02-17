@@ -5,10 +5,10 @@
 	$name = $_POST['name'];
 	$last_name = $_POST['last_name'];
 	$password = $_POST['password'];
-	$profile_pic = $_FILES['profile_pic']['name'];
+	$profile_pic = $_FILES['profile_pic']['name']; //
 	$email = $_POST['email'];
 	$number = $_POST['number'];
-	echo '../images/profile/'.$name.'/'.$profile_pic;
+	//path: ../images/profile/'.$name.'/'.$profile_pic;
 	mkdir('../images/profile/'.$name.'/');
 	//save image
 	if( $_FILES['profile_pic']['name'] != "" ){
@@ -16,9 +16,9 @@
 	}
 	//store data
 	$conn = mysqli_connect("localhost","root","zukiswa","car_wash"); //connect to server and select db
-	//$statement = "insert into user_details(name,last_name,password,profile_pic,email,number) values ('{$name}','{last_name}','{$password}','{profile_pic}','{email}','{number}')";//query
-	//$query = mysqli_query($conn, $statement);
+	$statement = "insert into user_details(name,last_name,password,profile_pic,email,number) values ('{$name}','{last_name}','{$password}','{profile_pic}','{email}','{number}')";//query
+	$query = mysqli_query($conn, $statement);
 
-	//$conn->mysql_close();
+	$conn->mysql_close();
 
 ?>
