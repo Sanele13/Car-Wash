@@ -20,8 +20,11 @@
 					<input type="text" name="username"/><br/>
 					<span style="color: white;font-weight: bold;">Password</span>
 					<input type="password" name="password"/><br/>
-					<input type="submit" class = "login-button" value="Log In"/>
-				</form>'; 
+					<input type="submit" class = "login-button" value="Log In"/> 
+					&nbsp;&nbsp;<a href="register/reg.php" style="color:white;font-size:18px">Register</a>
+				</form>
+
+				'; 
 			}
 			
 
