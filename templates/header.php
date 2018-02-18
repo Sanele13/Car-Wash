@@ -15,7 +15,7 @@
 			} else {
 				echo '
 
-				<form action="http://127.0.0.1/car%20wash/login/" method="POST">
+				<form action="https://carwash2018.herokuapp.com/login/" method="POST">
 					<span style="color: white;font-weight: bold;">Username</span>
 					<input type="text" name="username"/><br/>
 					<span style="color: white;font-weight: bold;">Password</span>
