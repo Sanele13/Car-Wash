@@ -40,7 +40,7 @@
 
 		function userExists(){
 
-			$conn = mysqli_connect("localhost","root","zukiswa","car_wash");
+			$conn = mysqli_connect("ec2-23-21-101-174.compute-1.amazonaws.com","rxtgqfxfcogpjk","d5644497df9db5ba0662be23d640c1dab93d7bfb4aad01cc23c3061bcb4ba2fa","d338a782pecr9b");
 			$statement = "SELECT * FROM user_details where password='{$this->password}' and name = '{$this->name}'";
 			$query = mysqli_query($conn, $statement);
 			//$result = mysqli_result($query);
@@ -57,7 +57,7 @@
 
 		public function getData(){
 		# code...
-			$conn = mysqli_connect("localhost","root","zukiswa","car_wash");
+			$conn = mysqli_connect("ec2-23-21-101-174.compute-1.amazonaws.com","rxtgqfxfcogpjk","d5644497df9db5ba0662be23d640c1dab93d7bfb4aad01cc23c3061bcb4ba2fa","d338a782pecr9b");
 			$statement = "SELECT * FROM user_details where password='{$this->password}' and name = '{$this->name}'";
 			$query = mysqli_query($conn, $statement);
 			//$result = mysqli_result($query);
