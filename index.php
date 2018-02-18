@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Q's Car Wash</title>
-	<link rel="stylesheet" type="text/css" href="http://127.0.0.1/car%20wash/css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="https://carwash2018.herokuapp.com//css/mystyle.css">
 </head>
 <body>
 	<?php 

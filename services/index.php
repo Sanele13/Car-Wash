@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Services</title>
-	<link rel="stylesheet" type="text/css" href="http://127.0.0.1/car%20wash/css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
 	<style type="text/css">
 		h1{
 			text-decoration: underline;

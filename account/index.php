@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Services</title>
-	<link rel="stylesheet" type="text/css" href="http://127.0.0.1/car%20wash/css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="../css/mystyle.css">
 </head>
 <body>
 	<?php 
@@ -11,7 +11,10 @@
 		include('../templates/menu.php');
 	 ?>
 	 <div class="container-in-body">
-	 	
+	 	<img width = "100px" height = "100px" src="<?php echo '../images/profile/'.$_SESSION['username'].'/'.$_SESSION['profile_pic']; ?>" >
+	 	<div class = "">
+
+	 	</div>>
 	 </div>
 	<!--footer-->
 	<?php 
